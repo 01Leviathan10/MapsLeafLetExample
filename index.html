@@ -69,7 +69,7 @@
         }).addTo(myMap);
         polygon.bindPopup("<b>Hello world!</b><br>I am a polygon.");
 
-        myMap.fitBounds(polygon.getBounds());
+        // myMap.fitBounds(polygon.getBounds());
 
         myMap.on('click', function (ev) {
             alert("Coordinates of clicked point is: " + ev.latlng.lat + ", " + ev.latlng.lng);
